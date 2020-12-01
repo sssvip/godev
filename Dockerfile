@@ -14,4 +14,4 @@ RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.v
 	rm -rf /go/src/* /go/pkg  && \
 	rm -rf /tmp/* /var/tmp/*
 
-WORKDIR /root
+WORKDIR /workdir
