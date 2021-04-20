@@ -60,6 +60,9 @@ Plugin 'airblade/vim-gitgutter'
 " 可以切换和跳转到代码中对应的变量和函数的位置
 " 大纲式导航, Go 需要 https://github.com/jstemmer/gotags 支持
 Plugin 'majutsushi/tagbar'
+" python3 
+Plugin 'tell-k/vim-autopep8'
+Plugin 'Yggdroot/indentLine'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER David <admin@dxscx.com>
 ENV LANG C.UTF-8
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
-	DEBIAN_FRONTEND=noninteractive apt-get -y install git cmake golang python3-dev vim tmux && \
+	DEBIAN_FRONTEND=noninteractive apt-get -y install git cmake golang python3-dev vim tmux python3-pip && \
 	DEBIAN_FRONTEND=noninteractive apt-get -y autoremove && \
 	DEBIAN_FRONTEND=noninteractive apt-get clean
 	
